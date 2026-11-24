@@ -259,6 +259,16 @@ TYPES: [
 		ADDONS: [
 			{
 				BELOW_HEAD: false,
+				ADDON_INDEX: 5,
+				CONDITIONS: {
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
 				ADDON_INDEX: 2,
 				CONDITIONS: {
 					EQUAL: {
@@ -646,6 +656,16 @@ TYPES: [
 		NAMESET_FILE_SURNAME: StdLast,
 	
 		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 5,
+				CONDITIONS: {
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+				COLOR: HAIR,
+			},
 			{
 				BELOW_HEAD: false,
 				ADDON_INDEX: 3,

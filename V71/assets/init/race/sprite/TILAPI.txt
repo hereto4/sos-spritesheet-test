@@ -218,6 +218,15 @@ TYPES: [
 		ADDONS: [
 			{
 				BELOW_HEAD: false,
+				ADDON_INDEX: 5,
+				CONDITIONS: {
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
 				ADDON_INDEX: 2,
 				CONDITIONS: {
 					EQUAL: {
