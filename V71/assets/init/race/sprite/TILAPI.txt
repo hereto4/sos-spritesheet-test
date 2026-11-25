@@ -236,11 +236,6 @@ TYPES: [
 			},
 			{
 				BELOW_HEAD: false,
-				ADDON_INDEX: 4,
-				COLOR: HAIR,
-			},
-			{
-				BELOW_HEAD: false,
 				ADDON_INDEX: 1,
 				CONDITIONS: {
 					GREATER: {
