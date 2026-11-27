@@ -194,7 +194,7 @@ TYPES: [
 		
 		ADDONS: [
 			{
-				BELOW_HEAD: false,
+				BELOW_HEAD: true,
 				ADDON_INDEX: 5,
 				CONDITIONS: {
 					EQUAL: {
@@ -202,6 +202,15 @@ TYPES: [
 					},
 				},
 				COLOR: SKIN,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 6,
+				CONDITIONS: {
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
 			},
 			{
 				BELOW_HEAD: false,
